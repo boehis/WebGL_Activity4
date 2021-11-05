@@ -117,7 +117,7 @@ function initVertexBuffers(gl) {
 var g_eyeX = 0.20, g_eyeY = 0.25, g_eyeZ = 0.25; // Eye position
 function keydown(ev, gl, n, u_ViewMatrix, viewMatrix) {
     if(ev.keyCode == 39) { // The right arrow key was pressed
-      g_eyeX += 0.01;
+      g_eyeX += 0.1;
     } else 
     if (ev.keyCode == 37) { // The left arrow key was pressed
       g_eyeX -= 0.01;
